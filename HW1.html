@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>HW1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="HW1.css">
+</head>
+
+<body>
+
+<!-- <table id="bookTable">
+    <tr id="headerRow">
+        <th id="BookIDHeader">Book ID</th>
+        <th id="BookTitleHeader">Title</th>
+        <th id="BookAuthorHeader">Author</th>
+    </tr>
+    <tr id="firstBookRow">
+        <td id=firstBookID>Book 1 ID</td>
+        <td id=firstBookTitle>Book 1 Title</td>
+        <td id=firstBookAuthor>Book 1 Author</td>
+    </tr>
+    <tr id="secondBookRow">
+        <td id=secondBookID>Book 2 ID</td>
+        <td id=secondBookTitle>Book 2 Title</td>
+        <td id=secondBookAuthor>Book 2 Author</td>
+    </tr>
+    <tr id="thirdBookRow">
+        <td id=thirdBookID>Book 3 ID</td>
+        <td id=thirdBookTitle>Book 3 Title</td>
+        <td id=thirdBookAuthor>Book 3 Author</td>
+    </tr>
+    <tr id="fourthBookRow">
+        <td id=fourthBookID>Book 4 ID</td>
+        <td id=fourthBookTitle>Book 4 Title</td>
+        <td id=fourthBookAuthor>Book 4 Author</td>
+    </tr>
+    <tr id="fifthBookRow">
+        <td id=fifthBookID>Book 5 ID</td>
+        <td id=fifthBookTitle>Book 5 Title</td>
+        <td id=fifthBookAuthor>Book 5 Author</td>
+    </tr>
+    <tr id="sixthBookRow">
+        <td id=sixthBookID>Book 6 ID</td>
+        <td id=sixthBookTitle>Book 6 Title</td>
+        <td id=sixthBookAuthor>Book 6 Author</td>
+    </tr>
+</table> -->
+
+<!-- <form id="form">
+    <button type="button" id="previousButton">&lt</button>
+    <button type="button" id="page1Button">1</button>
+    <button type="button" id="page2Button">2</button>
+    <button type="button" id="page3Button">3</button>
+    <button type="button" id="page4Button">4</button>
+    <button type="button" id="nextButton">&gt</button>
+</form> -->
+
+<table id="booksTable"></table>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination pagination-lg justify-content-center">
+      <li class="page-item disabled" id="previousButton">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&lt</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item active" id="page1"><a class="page-link" href="#">1</a></li>
+      <li class="page-item" id="page2"><a class="page-link" href="#">2</a></li>
+      <li class="page-item" id="page3"><a class="page-link" href="#">3</a></li>
+      <li class="page-item" id="page4"><a class="page-link" href="#">4</a></li>
+      <li class="page-item" id="nextButton">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&gt</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+<script src="HW1.js"></script>
+</body>
+
+</html>
